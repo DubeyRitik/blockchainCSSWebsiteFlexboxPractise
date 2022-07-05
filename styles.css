@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.wholebody {
+  background-color: rgb(251, 245, 238);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: rgb(238, 227, 227);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 25px;
+  color: rgb(176, 155, 155);
+}
+
+nav a:link{
+padding: 10px;
+}
+
+.author img {
+  width: 50px;
+}
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.author p {
+  margin-left: 20px;
+}
+
+.blockchainimg {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: green;
+}
+aside {
+  border-top: 10px solid rgb(176, 155, 155);
+  border-bottom: 10px solid rgb(176, 155, 155);
+  width: 300px;
+  align-self: flex-start;
+}
+footer {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.keylist {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.postslist {
+  list-style: none;
+}
+
+.l1i, .l2i, .l3i {
+width: 50px;
+}
+
+.l1,.l2, .l3 {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+article {
+  width: 825px;
+}
+.main-content {
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+  width: 825px;
+  position:relative;
+  color: green;
+}
+
+h3::after {
+  content: "TOP";
+  position: absolute;
+  font-size: 20px;
+  background-color: yellow;
+  top: -10px;
+  right: 40px;
+  color: greenyellow;
+}
+
+footer {
+  position: relative;
+}
+
+footer button {
+  position: absolute;
+  top: -50px;
+  font-size: 30px;
+  right: 50px;
+}
+
+
+
+
